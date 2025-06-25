@@ -1,7 +1,18 @@
 class Student{
     private String name;
+    
     public Student(){
-        //add a default constructor of Student
-}
+    //add a default constructor of Student
+    }
+    public Student(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return name;
+    }
+
+    public void  setName(String name){
+    this.name = name;
+    }
 
 }
