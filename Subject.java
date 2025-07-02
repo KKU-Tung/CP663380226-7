@@ -1,3 +1,5 @@
 class Subject{
+    public Subject(){
 
+    }
 }
